@@ -3,7 +3,7 @@ import { assets } from "../assets/assets";
 
 export const Sidebar = () => {
     return (
-        <div className="w-full max-w-sm h-full p-2 flex-col gap-2 text-neutral-400 hidden lg:flex">
+        <div className="w-full max-w-[440px] h-full p-2 flex-col gap-2 text-neutral-400 hidden lg:flex">
             <div className="bg-[#121212] h-36 flex flex-col justify-evenly rounded-lg gap-2">
                 <div className="flex items-center gap-5 px-6 cursor-pointer hover:text-white duration-500">
                     <img
@@ -24,7 +24,7 @@ export const Sidebar = () => {
             </div>
             <div className="bg-[#121212] h-screen rounded-lg">
                 <div className="flex items-center justify-between p-4">
-                    <div className="flex items-center gap-5 px-2 cursor-pointer hover:text-white duration-500">
+                    <div className="flex items-center gap-3 px-2 cursor-pointer hover:text-white duration-500">
                         <img
                             className="w-6"
                             src={assets.stack_icon}
