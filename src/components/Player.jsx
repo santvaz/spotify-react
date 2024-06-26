@@ -20,8 +20,8 @@ export const Player = () => {
         <div className="flex gap-6 items-center justify-center">
           <img className='size-4 opacity-70 cursor-pointer hover:opacity-100' src={assets.shuffle_icon} alt="" />
           <img className='size-4 opacity-70 cursor-pointer hover:opacity-100' src={assets.prev_icon} alt="" />
-          <span className="p-1.5 border border-white rounded-full duration-200 cursor-pointer">
-            <img className='size-4 opacity-70 cursor-pointer hover:opacity-100' src={assets.play_icon} alt="" />
+          <span className="p-1.5 border border-white bg-white rounded-full duration-200 cursor-pointer">
+            <img className='size-4 cursor-pointer hover:opacity-100 invert' src={assets.play_icon} alt="" />
           </span>
           <img className='size-4 opacity-70 cursor-pointer hover:opacity-100' src={assets.next_icon} alt="" />
           <img className='size-4 opacity-70 cursor-pointer hover:opacity-100' src={assets.loop_icon} alt="" />
